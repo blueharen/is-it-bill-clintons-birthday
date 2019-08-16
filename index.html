@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Is it Bill Clinton's Birthday?</title>
+</head>
+
+<body>
+<p id="p"></p>
+
+<script>
+var m = new Date().getMonth().toString();
+var d = new Date().getDate().toString();
+var y = new Date().getFullYear().toString();
+
+var date = '7192019'
+
+if (m+d+y == date){
+	document.getElementById("p").innerHTML = 'YES. REJOICE';
+    }
+else {
+document.getElementById("p").innerHTML = 'No.';
+}
+</script>
+
+</body>
+</html>
