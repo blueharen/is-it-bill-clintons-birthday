@@ -18,12 +18,11 @@ background-color:white;
 <script>
 var m = new Date().getMonth().toString();
 var d = new Date().getDate().toString();
-var y = new Date().getFullYear().toString();
 
-var date = '7192019'
+var date = '719'
 
 document.getElementById("p").innerHTML = m
-if (m+d+y == date){
+if (m+d == date){
 	document.getElementById("p").innerHTML = '<center><font face="verdana" size="30"><b>YES!</b></font></center>';
     document.getElementById("style").innerHTML = 'body{background-color:gray;}'
     document.getElementById("bill").innerHTML = 
